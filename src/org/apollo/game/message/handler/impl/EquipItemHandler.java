@@ -36,7 +36,7 @@ public final class EquipItemHandler extends MessageHandler<ItemOptionMessage> {
 			return;
 		}
 
-		for (int id = 0; id < 5; id++) {
+		for (int id = 0; id < 7; id++) {
 			int requirement = definition.getLevel(id);
 
 			if (player.getSkillSet().getSkill(id).getMaximumLevel() < requirement) {
